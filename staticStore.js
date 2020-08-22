@@ -1,7 +1,10 @@
-let cardContainer = document.getElementById('card-list');
-let cards = [];
+import { items } from './items.js';
+console.log(items);
 
-// add test cards! ============================================
+let cardContainer = document.getElementById('card-list');
+
+// test items! ============================================
+let cards = [];
 for (let i = 1; i <= 6; i++) {
     let newItem = {
         name: `Item ${i}`,
@@ -10,7 +13,7 @@ for (let i = 1; i <= 6; i++) {
     cards.push(newItem);
 }
 
-cards.forEach(i => {
+items.forEach(i => {
     let cardHolder = document.createElement('li');
 
     let card = document.createElement('div');
