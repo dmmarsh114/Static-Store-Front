@@ -8,3 +8,8 @@
     font-family: 'Sea of Thieves';
     src: url('../assets/fonts/brushtip-texe.otf');
 }
+
+@font-face {
+    font-family: 'Windlass';
+    src: url('../assets/fonts/Windlass.ttf');
+}
