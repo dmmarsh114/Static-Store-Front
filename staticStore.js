@@ -31,7 +31,6 @@ items.forEach(i => {
 
     let cardBtnContainer = document.createElement('div');
     cardBtnContainer.classList.add('card-btn-container');
-    card.appendChild(cardBtnContainer);
 
     let cardBtn = document.createElement('i');
     cardBtn.innerText = 'add_shopping_cart';
@@ -41,4 +40,5 @@ items.forEach(i => {
 
     cardHolder.appendChild(card);
     cardContainer.appendChild(cardHolder);
+    cardHolder.appendChild(cardBtnContainer);
 });

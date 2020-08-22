@@ -6,18 +6,24 @@
     flex-flow: row wrap;
 }
 
-.card {
+.card-container li {
     width: 300px;
-    height: auto;
     margin: 20px;
+}
+
+.card {
+    height: auto;
+    min-height: 165px;
     padding: 10px;
-    border-radius: 7px;
+    border-radius: 7px 7px 0 0;
     background: var(--drk-blue);
     /* box-shadow: 0 2px 5px var(--lg-green); */
 }
 
 .card-title {
     text-align: center;
+    font-family: 'Sea of Thieves', cursive;
+    letter-spacing: .15em;
 }
 
 .card-text {
@@ -27,5 +33,16 @@
 .card-btn-container {
     display: flex;
     justify-content: flex-end;
-    padding-right: 20px;
+    width: 100%;
+    border-radius: 0 0 7px 7px;
+    background: var(--drk-blue);
+}
+
+.card-btn {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.card-btn:hover {
+    color: var(--lg-green);
 }
