@@ -1,0 +1,31 @@
+.card-container ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.card {
+    width: 300px;
+    height: auto;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 7px;
+    background: var(--drk-blue);
+    /* box-shadow: 0 2px 5px var(--lg-green); */
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    font-style: italic;
+}
+
+.card-btn-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}

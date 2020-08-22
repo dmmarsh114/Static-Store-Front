@@ -1,0 +1,25 @@
+.navbar {
+    width: 100%;
+    margin: 0;
+    top: 0;
+    position: fixed;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px;
+    /* background-color: #44997E; */
+    background: black linear-gradient(90deg, #010d0b 0,#44997E 25%, #44997E 75%, black 100%) repeat-y;
+    color: white;
+}
+
+nav i {
+    text-decoration: none;
+    text-align: right;
+    margin: 0 12px 0 12px;
+}
+
+nav i:hover {
+    color: var(--lg-green);
+}

@@ -1,0 +1,10 @@
+:root {
+    --lg-green: #44997E;
+    --btn-green: #2E5945;
+    --drk-blue: #19333C;
+}
+
+@font-face {
+    font-family: 'Sea of Thieves';
+    src: url('../assets/fonts/brushtip-texe.otf');
+}

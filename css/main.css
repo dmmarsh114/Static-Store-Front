@@ -1,0 +1,20 @@
+@import './vars.css';
+@import './navbar.css';
+@import './title.css';
+@import './card.css';
+
+/* headers (possibly yeet these) */
+@import url('https://fonts.googleapis.com/css2?family=Bilbo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+/* paragraph */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
+
+body {
+    margin: 0;
+    padding-top: 50px;
+    background: #0b1e24 linear-gradient(90deg,#010d0b 0,#0b1e24 25%,#0b1e24 75%,#010d0b) repeat-y;
+    color: white;
+    font-family: 'IM Fell English', serif;
+}
