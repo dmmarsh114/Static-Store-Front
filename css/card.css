@@ -18,7 +18,7 @@
 }
 
 .card-main {
-    height: 165px;
+    height: 210px;
     padding: 10px;
     border-radius: 7px 7px 0 0;
     background: var(--drk-blue);
@@ -33,6 +33,10 @@
 .card-text {
     font-style: italic;
     padding: 10px;
+}
+
+.card-price {
+    padding: 0 10px;
 }
 
 .card-btn-container {
