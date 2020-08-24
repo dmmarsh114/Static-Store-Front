@@ -24,3 +24,20 @@
     border-color: var(--lg-green);
     width: 60%;
 }
+
+.title-btn-group button {
+    background-color: var(--lg-green);
+    color: white;
+    border: thin solid transparent;
+    padding: 10px;
+    font-family: inherit;
+    border-radius: 5px;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.title-btn-group button:hover {
+    color: var(--lg-green);
+    background-color: transparent;
+    border-color: var(--lg-green);
+}
