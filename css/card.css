@@ -6,18 +6,22 @@
     flex-flow: row wrap;
 }
 
-.card-container li {
+.card {
     width: 300px;
     margin: 20px;
+    border-radius: 7px;
+    background-color: transparent;
 }
 
-.card {
-    height: auto;
-    min-height: 165px;
+.card:hover {
+    box-shadow: 0 0 30px 5px var(--lg-green);
+}
+
+.card-main {
+    height: 165px;
     padding: 10px;
     border-radius: 7px 7px 0 0;
     background: var(--drk-blue);
-    /* box-shadow: 0 2px 5px var(--lg-green); */
 }
 
 .card-title {
@@ -28,6 +32,7 @@
 
 .card-text {
     font-style: italic;
+    padding: 10px;
 }
 
 .card-btn-container {

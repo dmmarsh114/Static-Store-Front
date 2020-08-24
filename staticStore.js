@@ -15,9 +15,10 @@ for (let i = 1; i <= 6; i++) {
 
 items.forEach(i => {
     let cardHolder = document.createElement('li');
+    cardHolder.classList.add('card');
 
     let card = document.createElement('div');
-    card.classList.add('card');
+    card.classList.add('card-main');
 
     let cardTitle = document.createElement('h3');
     cardTitle.innerText = i.name;
