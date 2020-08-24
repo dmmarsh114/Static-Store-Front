@@ -10,7 +10,7 @@ nav {
     justify-content: flex-end;
     padding: 12px;
     /* background-color: #44997E; */
-    background: black linear-gradient(90deg, #010d0b 0,#44997E 25%, #44997E 75%, black 100%) repeat-y;
+    background: #0b1e24 linear-gradient(90deg,#010d0b 0, var(--lg-green) 25%, var(--lg-green) 75%,#010d0b) repeat-y;
     color: white;
 }
 
