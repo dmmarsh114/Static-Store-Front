@@ -29,6 +29,9 @@ items.forEach(i => {
     cardDesc.classList.add('card-text');
     card.appendChild(cardDesc);
 
+    let cardPrice = `\n \nPrice: ${i.price ? i.price : 'This one\'s on me, mate!'}`;
+    cardDesc.innerText += cardPrice;
+
     let cardBtnContainer = document.createElement('div');
     cardBtnContainer.classList.add('card-btn-container');
 
