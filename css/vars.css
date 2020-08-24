@@ -1,15 +1,20 @@
-:root {
-    --lg-green: #44997E;
-    --btn-green: #2E5945;
-    --drk-blue: #19333C;
-}
+/* paragraph */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
 
+/* brand */
 @font-face {
     font-family: 'Sea of Thieves';
     src: url('../assets/fonts/brushtip-texe.otf');
 }
 
+/* heading */
 @font-face {
     font-family: 'Windlass';
     src: url('../assets/fonts/Windlass.ttf');
+}
+
+:root {
+    --lg-green: #44997E;
+    --btn-green: #2E5945;
+    --drk-blue: #19333C;
 }
