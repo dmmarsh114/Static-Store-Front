@@ -10,11 +10,14 @@
     font-family: 'Sea of Thieves', cursive;
     font-size: 40px;
     letter-spacing: .15em;
+    margin-bottom: 0;
 }
 
 .title-text h3 {
     font-style: italic;
     letter-spacing: .1em;
+    margin-top: 15px;
+    margin-bottom: 40px;
 }
 
 .title-text hr {
