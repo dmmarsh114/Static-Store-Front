@@ -3,7 +3,7 @@ let ipsum = "Bilged on her anchor spanker hail-shot keelhaul schooner bounty rop
 let items = [
     {
         name: 'Cannon',
-        text: "A perfect gift fer yer mate who wants to fire 50kg of solid iron at something.",
+        text: "A perfect gift fer any mate who wants to fire 50kg of solid iron at something.",
     },
     {
         name: 'Boards',
@@ -14,12 +14,12 @@ let items = [
         text: 'Perfect for the discerning bilge rat!'
     },
     {
-        name: 'A Big Hat',
-        text: 'Just what the well-dressed pirate captain is wearing.'
-    },
-    {
         name: 'Sail Cloth',
         text: 'A bundle of cloth what can repair damaged sails. Guaranteed to catch the wind at some point (provided they\'re affixed proper-like).'
+    },
+    {
+        name: 'A Big Hat',
+        text: 'Just what the well-dressed pirate captain is wearing.'
     },
     {
         name: 'Scrimshaw',
