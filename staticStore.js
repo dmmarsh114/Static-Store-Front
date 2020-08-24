@@ -1,5 +1,4 @@
 import { items } from './items.js';
-console.log(items);
 
 let cardContainer = document.getElementById('card-list');
 

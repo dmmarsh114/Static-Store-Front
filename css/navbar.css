@@ -6,12 +6,30 @@
 }
 
 nav {
-    display: flex;
-    justify-content: flex-end;
     padding: 12px;
-    /* background-color: #44997E; */
     background: #0b1e24 linear-gradient(90deg,#010d0b 0, var(--lg-green) 25%, var(--lg-green) 75%,#010d0b) repeat-y;
     color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand a {
+    position: relative;
+    left: 5%;
+    top: -5px;
+}
+
+.brand a:hover {
+    color: var(--lg-green);
+}
+
+.brand img {
+    width: 20px;
+    height: auto;
+}
+
+.nav-links {
+    text-align: right;
 }
 
 nav i {

@@ -3,7 +3,7 @@ let ipsum = "Bilged on her anchor spanker hail-shot keelhaul schooner bounty rop
 let items = [
     {
         name: 'Cannon',
-        text: "A perfect gift fer any mate who wants to fire 50kg of solid iron at something.",
+        text: "An excellent gift fer any mate who wants to fire 50kg of solid iron at something.",
     },
     {
         name: 'Boards',
@@ -24,6 +24,14 @@ let items = [
     {
         name: 'Scrimshaw',
         text: 'Keepin\' secrets, are ye?'
+    },
+    {
+        name: 'Mutiny Coping Mechanism',
+        text: 'Stranded on an island by yer mates? This\'ll ease the pain.'
+    },
+    {
+        name: 'Parrot',
+        text: 'A remarkable Norwegian blue parrot, complete with lovely plumage. The perfect companion on any seafaring voyage. '
     }
 ];
 
