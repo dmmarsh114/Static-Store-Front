@@ -15,7 +15,7 @@ let items = [
     },
     {
         name: 'A Big Hat',
-        text: 'Just what the well-dressed pirate is wearing.'
+        text: 'Just what the well-dressed pirate captain is wearing.'
     },
     {
         name: 'Sail Cloth',
