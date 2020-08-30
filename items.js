@@ -1,5 +1,3 @@
-let ipsum = "Bilged on her anchor spanker hail-shot keelhaul schooner bounty rope's end Davy Jones' Locker no prey, no pay doubloon. Doubloon Privateer quarter avast boom skysail sloop Barbary Coast knave mizzen.";
-
 let items = [
     {
         name: 'Cannon',
@@ -44,7 +42,7 @@ let items = [
     },
     {
         name: 'Parrot',
-        text: 'A remarkable Norwegian blue parrot. The perfect companion on any seafaring voyage. I promise he\'s just restin\'',
+        text: 'A remarkable Norwegian blue parrot. The perfect companion on any seafaring voyage. He\'s just restin\', I promise.',
         price: '12 tuppence',
         imgSrc: '150px-Blue_Water_Parakeet_inv'
     }

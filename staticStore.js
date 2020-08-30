@@ -2,32 +2,30 @@ import { items } from './items.js';
 
 let cardContainer = document.getElementById('card-list');
 
-// test items! ============================================
-let cards = [];
-for (let i = 1; i <= 6; i++) {
-    let newItem = {
-        name: `Item ${i}`,
-        text: "Bilged on her anchor spanker hail-shot keelhaul schooner bounty rope's end Davy Jones' Locker no prey, no pay doubloon. Doubloon Privateer quarter avast boom skysail sloop Barbary Coast knave mizzen.",
-    }
-    cards.push(newItem);
-}
-
 items.forEach(i => {
+    // li parent
     let cardHolder = document.createElement('li');
     cardHolder.classList.add('card');
 
+    // div container for card elements
     let card = document.createElement('div');
     card.classList.add('card-main');
 
+    // card img
     let imgContainer = document.createElement('div');
     imgContainer.classList.add('card-img-container');
     card.appendChild(imgContainer);
 
     let img = document.createElement('img');
     img.classList.add('card-img');
-    img.src = `./assets/images/${i.imgSrc}.png`;
+    if (i.imgSrc) {
+        img.src = `./assets/images/${i.imgSrc}.png`;
+    } else {
+        img.src = `./assets/skullandcrossbones1.png`;
+    }
     imgContainer.appendChild(img);
 
+    // card text
     let cardTitle = document.createElement('h3');
     cardTitle.innerText = i.name;
     cardTitle.classList.add('card-title');
@@ -38,6 +36,7 @@ items.forEach(i => {
     cardDesc.classList.add('card-text');
     card.appendChild(cardDesc);
 
+    // card button and price info
     let cardBtnContainer = document.createElement('div');
     cardBtnContainer.classList.add('card-btn-container');
 
@@ -52,6 +51,7 @@ items.forEach(i => {
     cardBtn.classList.add('card-btn');
     cardBtnContainer.appendChild(cardBtn);
 
+    // add items to document
     cardHolder.appendChild(card);
     cardContainer.appendChild(cardHolder);
     cardHolder.appendChild(cardBtnContainer);
