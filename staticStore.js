@@ -19,6 +19,15 @@ items.forEach(i => {
     let card = document.createElement('div');
     card.classList.add('card-main');
 
+    let imgContainer = document.createElement('div');
+    imgContainer.classList.add('card-img-container');
+    card.appendChild(imgContainer);
+
+    let img = document.createElement('img');
+    img.classList.add('card-img');
+    img.src = `./assets/images/${i.imgSrc}.png`;
+    imgContainer.appendChild(img);
+
     let cardTitle = document.createElement('h3');
     cardTitle.innerText = i.name;
     cardTitle.classList.add('card-title');

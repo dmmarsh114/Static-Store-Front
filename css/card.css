@@ -18,10 +18,20 @@
 }
 
 .card-main {
-    height: 210px;
+    height: 370px;
     padding: 10px;
     border-radius: 7px 7px 0 0;
     background: var(--drk-blue);
+}
+
+.card-img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card-img {
+    height: 150px;
+    width: 150px;
 }
 
 .card-title {
