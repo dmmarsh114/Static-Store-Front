@@ -2,11 +2,12 @@
 @import './navbar.css';
 @import './title.css';
 @import './card.css';
+@import './pagination.css';
 
 body {
     margin: 0;
     padding-top: 50px;
     background: #0b1e24 linear-gradient(90deg,#010d0b 0,#0b1e24 25%,#0b1e24 75%,#010d0b) repeat-y;
-    color: white;
+    color: var(--off-white);
     font-family: 'IM Fell English', serif;
 }

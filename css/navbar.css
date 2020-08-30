@@ -8,7 +8,7 @@
 nav {
     padding: 12px;
     background: #0b1e24 linear-gradient(90deg,#010d0b 0, var(--lg-green) 25%, var(--lg-green) 75%,#010d0b) repeat-y;
-    color: white;
+    color: var(-off-white);
     display: flex;
     justify-content: space-between;
 }

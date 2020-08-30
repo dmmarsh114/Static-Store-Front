@@ -27,7 +27,7 @@
 
 .title-btn-group button {
     background-color: var(--lg-green);
-    color: white;
+    color: var(--off-white);
     border: thin solid transparent;
     padding: 10px;
     font-family: inherit;

@@ -38,13 +38,13 @@ items.forEach(i => {
     cardDesc.classList.add('card-text');
     card.appendChild(cardDesc);
 
-    let cardPrice = document.createElement('p');
-    cardPrice.innerText = `Price: ${i.price ? i.price : 'This one\'s on me, mate'}`;
-    cardPrice.classList.add('card-price');
-    card.appendChild(cardPrice);
-
     let cardBtnContainer = document.createElement('div');
     cardBtnContainer.classList.add('card-btn-container');
+
+    let cardPrice = document.createElement('span');
+    cardPrice.innerText = `Price: ${i.price ? i.price : 'This one\'s on me, mate'}`;
+    cardPrice.classList.add('card-price');
+    cardBtnContainer.appendChild(cardPrice);
 
     let cardBtn = document.createElement('i');
     cardBtn.innerText = 'add_shopping_cart';

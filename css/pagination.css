@@ -1,0 +1,21 @@
+.pagination {
+    background: #0b1e24 linear-gradient(90deg,#010d0b 0, var(--lg-green) 25%, var(--lg-green) 75%,#010d0b) repeat-y;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pag-text {
+    font-size: 30px;
+    margin: auto 5px auto 5px;
+}
+
+.pag-prev, .pag-next {
+    margin: 0 10px 0 10px;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.pag-text:hover, .pag-btn:hover {
+    color: var(--drk-blue);
+}
